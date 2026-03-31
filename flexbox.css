@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+/* -- encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid blueviolet;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+.sesion {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    color: rgb(244, 129, 29);
+    font-weight: bold;
+}
+.idioma {
+    border: 1px dashed #0c5e79;
+    padding: 10px;
+}
+
+/* --- seccion 1 */
+.imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border: 1px solid #084a28;
+    text-align: center;
+    padding: 25px;
+}
+/* --- seccion 2 */
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 100px;
+    padding: 20px;
+    border-bottom: 2px solid #970f0f;
+}
+
+.seccion-video {
+    border: 1px solid #d51919;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+}
+
+.download {
+    padding: 10px;
+    background-color: cadetblue;
+    box-shadow: 0.1px 1px  0.9px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+/* --- seccion 3 */
+.descripcion {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tar-img {
+    width: 100%;
+    height: 120px;
+    border: 1px solid #09537e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tar-texto {
+    padding: 15px;
+    border: 1px solid #09537e;
+    text-align: justify;
+}
